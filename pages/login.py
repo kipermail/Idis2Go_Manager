@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-#from I2G.pages.base_page import Base_page
+####from I2G.pages.base_page import Base_page
 from pages.base_page import Base_page
 
 class Login_page(Base_page):

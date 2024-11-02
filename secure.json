@@ -1,8 +1,8 @@
 {
     "users": {
-        "userRole1":{
-            "login": "alice",
-            "password": "Qamania123"
+        "Manager":{
+            "login": "john_snow@mailinator.com",
+            "password": "Idisov147"
         },
         "userRole2":{
             "login": "bob",

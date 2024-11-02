@@ -31,10 +31,10 @@ class Base_page():
     def __init__(self, page: Page):
         #super().__init__(page)  # Вызов __init__ родительского класса
         self.page = page
-        self.base_url = "https://manager.idis.qa.sktelemed.net"
+        #self.base_url = "https://manager.idis.qa.sktelemed.net"
 
     def open(self, endpoint: str, use_base_url=True):   
-        if use_base_url: 
+        if use_base_url:
             self.page.goto(self.base_url + endpoint)
         else: 
             self.page.goto(endpoint)
